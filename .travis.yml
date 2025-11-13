@@ -1,8 +1,8 @@
 language: node_js
 node_js:
-  - 'iojs'
   - '0.12'
   - '0.10'
+  - 'iojs'
 before_install:
   - echo 'deb http://deb.debian.org/debian bookworm-backports main contrib non-free'
     > sources.list
